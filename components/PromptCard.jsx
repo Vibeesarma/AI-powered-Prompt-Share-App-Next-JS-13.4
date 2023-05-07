@@ -67,8 +67,9 @@ const PromptCard = ({ post, handleTagClick, handleEdit, handleDelete }) => {
       <p className="my-4 font-satoshi text-sm text-gray-700">{post.prompt}</p>
       <div className="flex gap-2 flex-wrap">
         {post.tag &&
-          post.tag.split(",").map((t) => (
+          post.tag.split(",").map((t, index) => (
             <p
+              key={index}
               className="font-inter text-sm blue_gradient cursor-pointer"
               onClick={() => handleTagClick && handleTagClick(t)}
             >
