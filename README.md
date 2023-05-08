@@ -17,7 +17,7 @@
 
 ## NextAuth
 
-- [NextAuth](https://next-auth.js.org) is used for google authentication
+- [NextAuth](https://next-auth.js.org) is used for Google authentication
 
 > Thanks for [JavaScript Mastery](https://www.youtube.com/@javascriptmastery)
 
